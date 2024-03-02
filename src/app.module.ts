@@ -5,9 +5,9 @@ import { CommentsModule } from './comments/comments.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://root:example@localhost:27017'),
+    MongooseModule.forRoot('mongodb://root:example@localhost:27017', { dbName: 'mydatabase' }),
     PostsModule,
     CommentsModule
   ],
 })
-export class AppModule {}
+export class AppModule { }
