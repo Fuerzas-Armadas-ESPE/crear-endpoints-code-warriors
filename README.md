@@ -49,7 +49,8 @@ Este es un proyecto de blog personal desarrollado con NestJS.
 
 ## Instalación
 
-- Clona este repositorio: git clone `https://github.com/statick88/blogpersonalnest`
+- Clona este repositorio: git clone `https://github.com/Fuerzas-Armadas-ESPE/crear-endpoints-code-warriors.git`
+- Muevete a la rama testing: `git checkout testing`
 - Instala las dependencias: npm install
 
 ## Uso
